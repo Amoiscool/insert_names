@@ -1,0 +1,31 @@
+* {
+margin: 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.wrapper{
+background-color: black;
+height: 100%;
+display: flex;
+justify content center;
+align-items: center;
+}
+
+.flexbox { 
+border: solid 1px white;
+padding: 2rem;
+display:  flex;
+gap: 2rem;
+width: 15rem;
+min-width: 10rem;
+
+}
+
+.card{
+background-color: red;
+color:white;
+width:10rem;
+padding: blue;
+border:solid 1px white;
+}
+
