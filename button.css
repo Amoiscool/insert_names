@@ -1,0 +1,17 @@
+.grow {
+color:white;
+background-color:red; 
+width: 10rem;
+height: 4rem;
+cursor: pointer;
+border: 0 solid;
+font-family: Arial, sans-serif;
+border-radius: 1rem;
+font-size: 130%;
+font-weight: bold;
+transition: all 250ms linear
+}
+.grow:focus, .grow:hover {
+font-weight: bolder;
+transform: scale(250%);
+}

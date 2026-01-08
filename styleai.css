@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+.wrapper {
+    background-color: green;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+
+.flexbox { 
+    border: 5px solid red; 
+    padding: 2rem;
+    background-color: white; 
+}
+
+
+.card {
+    background-color: red;
+    color: yellow;
+    padding: 1rem;
+    border: 3px solid blue;
+}
