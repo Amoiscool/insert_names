@@ -13,5 +13,5 @@ transition: all 250ms linear
 }
 .grow:focus, .grow:hover {
 font-weight: bolder;
-transform: scale(250%);
+transform: scale(150%);
 }
