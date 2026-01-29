@@ -1,0 +1,22 @@
+10 pages, all similar format.
+flexbox,no wrap, use js and use the arrows as objects to use for the thingy
+center: put it ina flexbox, then justify content (center), align items, set all items to center
+w3 scoools if u forget
+
+do html with pic in ur mind
+shimmy -->
+
+
+@keyframes shimmy { 
+    0% (transform: rotate(-20deg);)
+    50%
+    100%
+}
+
+.sprite {
+
+    width:
+    animation-name: shimmy;
+    animation-iteration-count: infinite;
+    transform rotate(-20deg);
+}
