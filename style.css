@@ -1,0 +1,13 @@
+@keyframes shimmy { 
+    0% (transform: rotate(-20deg)); 
+    50%
+    100%
+}
+
+sprite {
+
+    width:
+    animation-name; shimmy:
+    animation-iteration-count; infinite:
+    transform rotate(-20deg);
+}
