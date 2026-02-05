@@ -1,13 +1,40 @@
-@keyframes shimmy { 
-    0% (transform: rotate(-20deg)); 
-    50%
-    100%
+
+*{
+    box-sizing: border-box;
 }
 
-sprite {
-
-    width:
-    animation-name; shimmy:
-    animation-iteration-count; infinite:
-    transform rotate(-20deg);
+.wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%
+overflow hidden; 
+padding: 1rem;
 }
+
+.container
+
+
+
+
+
+
+
+@keyframes shimmy {
+0% {transform: rotate(-20deg);}
+50% {transform: rotate(-20deg);}
+100% {transform: rotate(-20deg);}
+
+}
+
+.sprite {
+
+    width: 250px;
+    animation-name: shimmy;
+    animation-iteration-count: infinite;
+    transform: rotate(-20deg);
+}
+
+
+
