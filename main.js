@@ -35,8 +35,11 @@ slidingContainer.style.setProperty("--index", index + 1);
 
 
 async function getPokemon(name)  {
-const response = await fetch('https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}');
-const data = await response.json();
+const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}`);
+const data = await response.json(); {
+console.log()
+}
+
 sprite.src = data.sprites.front_default;
 sprite.style.display = "block" }
 
